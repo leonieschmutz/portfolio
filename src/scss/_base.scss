@@ -3,6 +3,8 @@
 // ==================================== */
 
 :root {
+  --main-text-color: #4c4c4c;
+  --white-color: #fffcf3;
 }
 
 /* ====================================
@@ -26,6 +28,8 @@ body {
 
   font-size: 1rem;
   line-height: 1.25;
+
+  background-color: var(--white-color);
 }
 
 .row + .row {
@@ -134,4 +138,54 @@ video {
   font-weight: 400;
   font-style: italic;
   font-display: swap;
+}
+
+.highlight {
+  border: orange;
+  background-color: yellow;
+}
+
+h1 {
+  font-family: "Bastardo Grotesk";
+  font-size: 140px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 121px;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 64px;
+    line-height: 60px;
+  }
+}
+
+h2 {
+  font-family: "Satoshi";
+  font-size: 53px;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  color: var(--main-text-color);
+
+  span {
+    font-style: italic;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+a {
+  color: var(--main-text-color);
+  font-family: "Satoshi";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  text-decoration-line: none;
 }
