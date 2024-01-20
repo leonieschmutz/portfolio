@@ -30,19 +30,20 @@ body {
   line-height: 1.25;
 
   background-color: var(--white-color);
+  box-sizing: border-box;
 }
 
-.row + .row {
-  margin-top: 16px;
-}
+// .row + .row {
+//   margin-top: 16px;
+// }
 
-.row > .col,
-.row > [class^="col-"] {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  background-color: rgba(86, 61, 124, 0.15);
-  border: 1px solid rgba(86, 61, 124, 0.2);
-}
+// .row > .col,
+// .row > [class^="col-"] {
+//   padding-top: 12px;
+//   padding-bottom: 12px;
+//   background-color: rgba(86, 61, 124, 0.15);
+//   border: 1px solid rgba(86, 61, 124, 0.2);
+// }
 
 a {
   color: inherit;
@@ -183,9 +184,50 @@ h2 {
 a {
   color: var(--main-text-color);
   font-family: "Satoshi";
-  font-size: 22px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
   text-decoration-line: none;
+}
+
+h3 {
+  color: var(--main-text-color);
+  font-family: "Bastardo Grotesk";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 30px;
+
+  @media (min-width: 992px) {
+    display: none;
+  }
+}
+
+h4 {
+  color: var(--main-text-color);
+  font-family: Bastardo Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  @media (min-width: 992px) {
+    font-size: 22px;
+  }
+}
+
+p {
+  color: var(--main-text-color);
+  font-family: Bastardo Grotesk;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: auto;
+
+  @media (min-width: 992px) {
+    font-size: 22px;
+    line-height: 28px;
+  }
 }

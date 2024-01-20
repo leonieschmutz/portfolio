@@ -1,5 +1,8 @@
-.header-content {
-  height: 100vh;
+// .header-content {
+//   height: 100vh;
+// }
+header {
+  margin-bottom: 115px;
 }
 
 .header-text {
@@ -50,6 +53,7 @@
   display: none;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 
   a {
     margin-right: 6%;
@@ -57,6 +61,8 @@
 
   @media (min-width: 992px) {
     display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
   }
 }
 
