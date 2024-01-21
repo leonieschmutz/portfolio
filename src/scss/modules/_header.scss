@@ -91,13 +91,20 @@ header {
 }
 
 .header-nav-desktop {
+  margin-top: 35px;
   display: none;
-  flex-direction: row;
-  justify-content: center;
   width: 100%;
 
   a {
-    margin-right: 6%;
+    margin-right: 3%;
+  }
+
+  a:last-of-type {
+    margin-right: 0;
+  }
+
+  a:hover {
+    font-style: italic;
   }
 
   @media (min-width: 992px) {
