@@ -1,8 +1,11 @@
 @import "overrides";
 @import "bootstrap/scss/bootstrap-grid";
+@import "swiper/swiper";
 
 @import "base";
 @import "layout";
 @import "modules/header";
 @import "modules/a-propos";
 @import "modules/projets";
+@import "modules/focus-projet";
+@import "modules/slider";

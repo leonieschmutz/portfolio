@@ -18,6 +18,14 @@
   }
 }
 
+.projets-content {
+  margin-bottom: 53px;
+
+  @media (min-width: 992px) {
+    margin-bottom: 0;
+  }
+}
+
 .projets-info {
   display: none;
 
