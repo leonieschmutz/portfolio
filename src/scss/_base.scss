@@ -33,6 +33,11 @@ body {
   box-sizing: border-box;
 }
 
+body.is-blocked {
+  height: 100vh;
+  overflow: hidden;
+}
+
 // .row + .row {
 //   margin-top: 16px;
 // }
