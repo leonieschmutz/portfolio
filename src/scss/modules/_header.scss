@@ -1,6 +1,3 @@
-// .header-content {
-//   height: 100vh;
-// }
 header {
   margin-bottom: 115px;
 }
@@ -11,18 +8,10 @@ header {
   justify-content: flex-start;
   height: 100%;
   margin-top: 20%;
-
   svg {
     align-self: center;
-    // margin-top: 150px;
-    position: sticky;
-    bottom: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .header-text svg {
-    height: 50%;
+    position: absolute;
+    bottom: 22px;
   }
 }
 
@@ -33,25 +22,29 @@ header {
   margin-top: 27px;
 }
 
+// .header-text-title {
+//   position: absolute;
+//   transform-origin: center;
+//   top: 50%;
+// }
+
 @media (max-width: 768px) {
   .header-text-fonction {
     margin-top: 5px;
   }
 }
+
 .header-nav-mobile {
-  // display: flex;
-  // flex-direction: row;
-  // justify-content: flex-end;
-  position: relative;
   margin-top: 77px;
 
   @media (min-width: 992px) {
     display: none;
   }
+
   .header-nav-mobile-button {
     cursor: pointer;
     position: absolute;
-    right: 0;
+    right: 22px;
   }
 
   // .header-nav-mobile-button.is-active {
