@@ -36,7 +36,8 @@ header {
 
 .header-nav-mobile {
   margin-top: 77px;
-
+  position: fixed;
+  width: calc(100% - 40px);
   @media (min-width: 992px) {
     display: none;
   }
