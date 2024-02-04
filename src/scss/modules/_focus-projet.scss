@@ -30,6 +30,35 @@
   }
 }
 
+.projets-index {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
 .focus-projet-text {
   margin-bottom: 55px;
+}
+
+.hover-image-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.hover-image {
+  width: 100%;
+  height: 100%;
+}
+
+.hover-image-container img {
+  width: 30%;
+  height: auto;
+}
+
+.projets-section {
+  height: 100%;
 }
