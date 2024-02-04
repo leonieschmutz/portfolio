@@ -44,7 +44,14 @@
             <div class="col-sm-12 col-md-12 col-lg-4">
               <div class="a-propos-img">
                 <img
-                  src="../src/img/a-propos-img.jpg"
+                  loading="lazy"
+                  src="../src/img/a-propos-img.jpg?as=webp&width=1200"
+                  srcset="
+                    ../src/img/a-propos-img.jpg?as=webp&width=375   375w,
+                    ../src/img/a-propos-img.jpg?as=webp&width=750   750w,
+                    ../src/img/a-propos-img.jpg?as=webp&width=1500 1500w,
+                    ../src/img/a-propos-img.jpg?as=webp&width=3000 3000w
+                  "
                   alt="Une photo de moi!"
                 />
               </div>
