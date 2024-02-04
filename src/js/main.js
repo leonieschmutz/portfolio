@@ -51,12 +51,16 @@ let currentHoverImageContainer = null;
 
 function startImageFollow(section, hoverImageContainer) {
   if (isFollowing && currentHoverImageContainer !== hoverImageContainer) {
-    currentHoverImageContainer.style.display = "none";
+    currentHoverImageContainer.style.opacity = 0;
+    currentHoverImageContainer.style.pointerEvents = "none";
   }
 
   isFollowing = true;
   currentHoverImageContainer = hoverImageContainer;
   hoverImageContainer.style.display = "block";
+  hoverImageContainer.style.opacity = 1;
+  hoverImageContainer.style.pointerEvents = "auto";
+
   document.addEventListener("mousemove", (e) =>
     updateHoverImagePosition(e, hoverImageContainer)
   );
@@ -64,7 +68,9 @@ function startImageFollow(section, hoverImageContainer) {
 
 function stopImageFollow(hoverImageContainer) {
   isFollowing = false;
-  currentHoverImageContainer.style.display = "none";
+  hoverImageContainer.style.opacity = 0;
+  hoverImageContainer.style.pointerEvents = "none";
+
   document.removeEventListener("mousemove", updateHoverImagePosition);
 }
 
