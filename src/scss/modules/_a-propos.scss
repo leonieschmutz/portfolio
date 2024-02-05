@@ -38,7 +38,12 @@
   align-items: center;
 
   img {
-    width: 100%;
+    width: 70%;
+    mix-blend-mode: multiply;
+
+    @media (min-width: 992px) {
+      width: 100%;
+    }
   }
 }
 
