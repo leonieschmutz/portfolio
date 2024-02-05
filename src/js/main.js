@@ -1,13 +1,10 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import "swiper/swiper-bundle.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
 // slider
-
-import Swiper, { Navigation, Pagination } from "swiper";
-
-Swiper.use([Navigation, Pagination]);
 
 const swiper = new Swiper(".swiper-container", {
   pagination: {
