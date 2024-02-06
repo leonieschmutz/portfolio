@@ -1,21 +1,28 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Swiper from "swiper";
+import { Navigation, Pagination } from "swiper/modules";
+// Swiper.use([Navigation, Pagination]);
+
 import "swiper/swiper-bundle.css";
 
 gsap.registerPlugin(ScrollTrigger);
 
 // slider
 
-const swiper = new Swiper(".swiper-container", {
-  pagination: {
-    el: ".swiper-pagination",
-    dynamicBullets: true,
-  },
-  navigation: {
-    nextEl: ".carousel-next",
-    prevEl: ".carousel-prev",
-  },
-});
+var swiperContainer = document.querySelector(".swiper-container");
+if (swiperContainer) {
+  const swiper = new Swiper(swiperContainer, {
+    pagination: {
+      el: ".swiper-pagination",
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".carousel-next",
+      prevEl: ".carousel-prev",
+    },
+  });
+}
 
 // burger menu
 
