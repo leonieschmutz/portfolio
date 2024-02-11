@@ -5,6 +5,7 @@
 }
 
 .slider-arrow {
+  z-index: 5;
   position: relative;
   padding: 20px 0;
   display: flex;
@@ -15,7 +16,6 @@
 
 .carousel-prev,
 .carousel-next {
-  z-index: 10;
   position: absolute;
   cursor: pointer;
   font-family: Satoshi;
