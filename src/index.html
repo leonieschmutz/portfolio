@@ -7,97 +7,20 @@
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <!-- <header>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12 col-md-12 offset-lg-1 col-lg-10">
-            <div class="header-content">
-              <div class="container-fluid">
-                <div class="row">
-                  <div class="col-sm-12 col-md-12 col-lg-12">
-                    <div class="header-nav-desktop">
-                      <a href="index.html">galerie</a>
-                      <a href="projets.html">projets</a>
-                      <a href="apropos.html">à propos</a>
-                      <a href="#">contact</a>
-                    </div>
-                    <div class="header-nav-mobile">
-                      <img
-                        src="../src/img/burger-menu-button.svg"
-                        alt="Le bouton du menu"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="header-text">
-                <h1>Interactive media designer</h1>
-                <div class="header-text-fonction">
-                  <h2>Léonie Schmutz</h2>
-                  <h2><span>portfolio</span></h2>
-                </div>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="64"
-                  height="89"
-                  viewBox="0 0 64 89"
-                  fill="none"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M31.905 2.9751L31.905 86.9751Z"
-                    fill="#4C4C4C"
-                  />
-                  <path
-                    d="M31.905 2.9751L31.905 86.9751"
-                    stroke="black"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M2.20654 57.2766L31.9051 86.9751Z"
-                    fill="#4C4C4C"
-                  />
-                  <path
-                    d="M2.20654 57.2766L31.9051 86.9751"
-                    stroke="black"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                  />
-                  <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
-                    d="M31.905 86.9751L61.6035 57.2766Z"
-                    fill="#4C4C4C"
-                  />
-                  <path
-                    d="M31.905 86.9751L61.6035 57.2766"
-                    stroke="black"
-                    stroke-width="4"
-                    stroke-linecap="round"
-                  />
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header> -->
     <header>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-12 col-md-12 col-lg-12">
-            <div class="header-content">
+            <div class="header-content header-homepage">
               <div class="col-sm-12 col-md-12 col-lg-12 p-lg-0">
                 <div class="header-nav">
                   <div class="header-nav-desktop">
-                    <a href="index.html">galerie</a>
-                    <a href="projets.html">projets</a>
-                    <a href="apropos.html">à propos</a>
-                    <a href="mailto:contact@leonieschmutz.ch">contact</a>
+                    <a href="index.html">Léonie Schmutz</a>
+                    <div class="header-nav-desktop-main-links">
+                      <a href="index.html#projets">projets</a>
+                      <a href="apropos.html">à propos</a>
+                      <a href="mailto:contact@leonieschmutz.ch">contact</a>
+                    </div>
                   </div>
                   <div class="header-nav-mobile">
                     <img
@@ -107,7 +30,7 @@
                     />
                     <div class="header-nav-mobile-link">
                       <a href="index.html">galerie</a>
-                      <a href="projets.html">projets</a>
+                      <a href="index.html#projets">projets</a>
                       <a href="apropos.html">à propos</a>
                       <a href="mailto:contact@leonieschmutz.ch">contact</a>
                     </div>
@@ -174,7 +97,291 @@
         </div>
       </div>
     </header>
-
+    <main>
+      <div class="container" id="projets">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12">
+            <div class="projets-content">
+              <div class="container">
+                <div class="row">
+                  <div class="col-12">
+                    <div class="projets-section" id="projets-section-1">
+                      <a href="semencesdepays.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Semences de pays</h4>
+                          </div>
+                          <p class="projets-info">
+                            projet final de première année
+                          </p>
+                          <p class="projets-info">projet pro</p>
+                          <p class="projets-index-tag">juin 2021</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/semences-de-pays-1.jpg?as=webp&width=1200"
+                              alt="Semences de pays"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section" id="projets-section-2">
+                      <a href="meandyourmama.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Me and your mama</h4>
+                          </div>
+                          <p class="projets-info">vidéo</p>
+                          <p class="projets-info">projet pro</p>
+                          <p class="projets-index-tag">octobre 2022</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-2"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/me-and-your-mama-1.png?as=webp&width=1200"
+                              alt="Semences de pays"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section" id="projets-section-2">
+                      <a href="sunniecoffee.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Sunnie Coffee</h4>
+                          </div>
+                          <p class="projets-info">frontend/UI</p>
+                          <p class="projets-info">projet pro</p>
+                          <p class="projets-index-tag">décembre 2022</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-2"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/sunnie-coffee-1.jpg?as=webp&width=1200"
+                              alt="Semences de pays"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section">
+                      <a href="portraits.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>PORTRAITS</h4>
+                          </div>
+                          <p class="projets-info">photo</p>
+                          <p class="projets-info">projet perso</p>
+                          <p class="projets-index-tag">mars 2023</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-3"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/portraits-5.jpg?as=webp&width=1200"
+                              alt="Semences de pays"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section" id="projets-section-3">
+                      <a href="eikonica.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Eikonica</h4>
+                          </div>
+                          <p class="projets-info">
+                            projet final de deuxième année
+                          </p>
+                          <p class="projets-info">projet pro</p>
+                          <p class="projets-index-tag">juin 2023</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-4"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/eikonica-1.png?as=webp&width=1200"
+                              alt="Semences de pays"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section" id="projets-section-4">
+                      <a href="utopie.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Utopie</h4>
+                          </div>
+                          <p class="projets-info">vidéo</p>
+                          <p class="projets-info">projet pro</p>
+                          <p class="projets-index-tag">septembre 2023</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-5"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/utopie-1.png?as=webp&width=1200"
+                              alt="Utopie"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section" id="projets-section-5">
+                      <a href="glitch.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Glitch</h4>
+                          </div>
+                          <p class="projets-info">motion/3D</p>
+                          <p class="projets-info">projet pro</p>
+                          <p class="projets-index-tag">novembre 2023</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-6"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/glitch-1.png?as=webp&width=1200"
+                              alt="Glitch"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section">
+                      <a href="storytellingweb.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Storytelling web</h4>
+                          </div>
+                          <p class="projets-info">frontend/UI/vidéo</p>
+                          <p class="projets-info">projet pro</p>
+                          <p class="projets-index-tag">novembre 2023</p>
+                          <div
+                            class="hover-image-container"
+                            id="projets-section-6"
+                          >
+                            <img
+                              loading="lazy"
+                              class="hover-image"
+                              src="../src/img/storytelling-web-2.jpg?as=webp&width=1200"
+                              alt="Bota Bota"
+                            />
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="col-12">
+                      <div class="projets-section">
+                        <a href="botabota.html">
+                          <div class="projets-index">
+                            <div class="projets-index-title">
+                              <h4><span>→</span>Bota Bota</h4>
+                            </div>
+                            <p class="projets-info">graphisme</p>
+                            <p class="projets-info">Projet pro</p>
+                            <p class="projets-index-tag">décembre 2023</p>
+                            <div
+                              class="hover-image-container"
+                              id="projets-section-6"
+                            >
+                              <img
+                                loading="lazy"
+                                class="hover-image"
+                                src="../src/img/bota-bota-1.png?as=webp&width=1200"
+                                alt="Bota Bota"
+                              />
+                            </div>
+                          </div>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="projets-section">
+                      <a href="semencesdepays.html">
+                        <div class="projets-index">
+                          <div class="projets-index-title">
+                            <h4><span>→</span>Spotpub</h4>
+                          </div>
+                          <p class="projets-info">vidéo</p>
+                          <p class="projets-info">Projet pro</p>
+                          <p class="projets-index-tag">janvier 2024</p>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-12 col-lg-5">
+            <div class="a-propos-nav">
+              <div class="a-propos-nav-social">
+                <a
+                  href="https://www.instagram.com/leonies.archives/"
+                  target="_blank"
+                  >instagram</a
+                >
+                <a
+                  href="https://www.linkedin.com/in/l%C3%A9onie-schmutz-83b300296/"
+                  target="_blank"
+                  >linkedin</a
+                >
+                <a href="https://www.behance.net/leonieschmutz" target="_blank"
+                  >behance</a
+                >
+                <a href="https://github.com/leonieschmutz" target="_blank"
+                  >github</a
+                >
+                <a href="mailto:contact@leonieschmutz.ch"
+                  >contact@leonieschmutz.ch</a
+                >
+              </div>
+              <div class="a-propos-file"><a href="#">↘cv</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="js/main.js" type="module"></script>
   </body>
 </html>
