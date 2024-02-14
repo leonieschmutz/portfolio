@@ -16,6 +16,10 @@ header {
     position: absolute;
     bottom: 22px;
   }
+
+  svg :hover {
+    cursor: pointer;
+  }
 }
 
 .header-text-title {
@@ -25,6 +29,20 @@ header {
   align-items: center;
   width: 100%;
   text-align: center;
+  animation-name: headerAnimation;
+  animation-duration: 1.5s;
+}
+
+@keyframes headerAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .header-text-fonction {

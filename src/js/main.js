@@ -38,6 +38,13 @@ var openMenu = function () {
 
 button.addEventListener("click", openMenu);
 
+document
+  .getElementById("scroll-trigger")
+  .addEventListener("click", function () {
+    // Effectuez un défilement de 100vh
+    window.scrollBy(0, window.innerHeight);
+  });
+
 // projet hover image
 
 // document.querySelectorAll(".projets-section").forEach((section) => {
